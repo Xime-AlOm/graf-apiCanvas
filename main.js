@@ -126,7 +126,7 @@ function draw(){
     ctx.bezierCurveTo(130, 62.5, 130, 25, 100, 25);
     ctx.bezierCurveTo(85, 25, 75, 37, 75, 40);
     ctx.fill();
-  }
+  }*/
 
     //Hacer combinaciones
     const canvas = document.getElementById("canvas");
@@ -203,9 +203,9 @@ function roundedRect(ctx, x, y, width, height, radius) {
   ctx.arcTo(x + width, y, x + width - radius, y, radius);
   ctx.arcTo(x, y, x, y + radius, radius);
   ctx.stroke();
-}*/
+}
 
-//Path2D
+/*Path2D
 const canvas = document.getElementById("canvas");
   if (canvas.getContext) {
     const ctx = canvas.getContext("2d");
@@ -218,6 +218,6 @@ const canvas = document.getElementById("canvas");
 
     ctx.stroke(rectangle);
     ctx.fill(circle);
-  }
+  }*/
 
 }
